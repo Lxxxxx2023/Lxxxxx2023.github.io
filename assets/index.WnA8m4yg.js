@@ -1,0 +1,1 @@
+import{e}from"./chunks/vue-router.B4chQHFU.js";import{K as o}from"./framework.BBlErx2S.js";const n={};function r(t,c){return null}typeof e=="function"&&e(n);const _=o(n,[["render",r]]);export{_ as default};
