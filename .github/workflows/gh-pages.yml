@@ -16,7 +16,10 @@ jobs:
         node-version: [lts/*]
         os: [ubuntu-latest]
       fail-fast: false
-
+    permissions:
+      contents: write  # 允许写入仓库代码
+      pages: write     # 允许操作GitHub Pages
+      id-token: write  # 允许OpenID Connect身份验证
     steps:
       - uses: actions/checkout@v2
 
